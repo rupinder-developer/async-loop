@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rupinder-developer/async-loop.git"
+    "url": "git+https://github.com/rupinder-developer/asynchronous-iterator.git"
   },
   "keywords": [
     "Async",
@@ -17,7 +17,7 @@
   "author": "Rupinder Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rupinder-developer/async-loop/issues"
+    "url": "https://github.com/rupinder-developer/asynchronous-iterator/issues"
   },
-  "homepage": "https://github.com/rupinder-developer/async-loop#readme"
+  "homepage": "https://github.com/rupinder-developer/asynchronous-iterator#readme"
 }
