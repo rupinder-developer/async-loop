@@ -1,0 +1,23 @@
+{
+  "name": "async-loop",
+  "version": "1.0.0",
+  "description": "Async Loop for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupinder-developer/async-loop.git"
+  },
+  "keywords": [
+    "Async",
+    "Loop"
+  ],
+  "author": "Rupinder Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rupinder-developer/async-loop/issues"
+  },
+  "homepage": "https://github.com/rupinder-developer/async-loop#readme"
+}
