@@ -1,5 +1,5 @@
 {
-  "name": "async-loop",
+  "name": "asynchronous-iterator",
   "version": "1.0.0",
   "description": "Async Loop for Node.js",
   "main": "index.js",

@@ -1,6 +1,6 @@
-# Async Loop
+# Asynchronous Iterator
 
-Async Loop is used to iterate over a given array or range without blocking the event loop. It is helpful if you want to iterate over a large data set or range.
+Asynchronous Iterator is used to iterate over a given array or range without blocking the event loop. It is helpful if you want to iterate over a large data set or range.
 
 
 ## Documentation
@@ -8,7 +8,7 @@ Async Loop is used to iterate over a given array or range without blocking the e
 ### Installation
 
 ```shell
-$ npm install async-loop
+$ npm install asynchronous-iterator
 ```
 
 ### Usage
@@ -16,9 +16,9 @@ $ npm install async-loop
 ### Iterate over an Array
 
 ```javascript
-const AsyncLoop = require('async-loop');
+const AsyncIterator = require('asynchronous-iterator');
 
-const array = new AsyncLoop([1, 2, 3, 4]);
+const array = new AsyncIterator([1, 2, 3, 4]);
 
 array.each((value, index, array) => {
     console.log(value, index, array);
@@ -33,9 +33,9 @@ array.each((value, index, array) => {
 
 Example 1:
 ```javascript
-const AsyncLoop = require('async-loop');
+const AsyncIterator = require('asynchronous-iterator');
 
-const range = new AsyncLoop(6);
+const range = new AsyncIterator(6);
 
 range.each(index => {
     console.log(index); // 0 - 5;
@@ -49,9 +49,9 @@ range.each(index => {
 Example 2:
 
 ```javascript
-const AsyncLoop = require('async-loop');
+const AsyncIterator = require('asynchronous-iterator');
 
-const range = new AsyncLoop(3, 6);
+const range = new AsyncIterator(3, 6);
 
 range.each(index => {
     console.log(index); // 3 - 5;

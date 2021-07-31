@@ -1,12 +1,12 @@
 /**
- * Async Loop is used to iterate over a given array or range without blocking 
+ * Asynchronous Iterator is used to iterate over a given array or range without blocking 
  * the event loop.
  * 
  * ******************
  * EXAMPLE 1 (Array):
  * ******************
  * 
- * const array = new AsyncLoop([1, 2, 3, 4]);
+ * const array = new AsyncIterator([1, 2, 3, 4]);
  * 
  * array.each((value, index, array) => {
  *      console.log(value, index, array);
@@ -20,7 +20,7 @@
  * EXAMPLE 2 (Range):
  * *****************
  * 
- * const range = new AsyncLoop(0, 10);
+ * const range = new AsyncIterator(0, 10);
  * 
  * range.each(index => {
  *      console.log(index);
@@ -30,7 +30,7 @@
  *      // Something went wrong!!
  * });
  */
-class AsyncLoop {
+class AsyncIterator {
     /**
      * AsyncLoop()
      * 
@@ -114,4 +114,4 @@ class AsyncLoop {
     }
 }
 
-module.exports = AsyncLoop;
+module.exports = AsyncIterator;
