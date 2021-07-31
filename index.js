@@ -1,6 +1,6 @@
 /**
- * Async Loop is used to iterate over an given array or range without blocking 
- * event loop.
+ * Async Loop is used to iterate over a given array or range without blocking 
+ * the event loop.
  * 
  * ******************
  * EXAMPLE 1 (Array):
@@ -63,7 +63,7 @@ class AsyncLoop {
     }
 
     /**
-     * each() is used to iterate over an given array of range.
+     * each() is used to iterate over a given array of range.
      * 
      * @param {function} cb 
      * @returns {Promise}
